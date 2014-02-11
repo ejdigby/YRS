@@ -9,3 +9,16 @@ The repo for our YRS team
 | Danny Johnson |      [Danny Johnson](https://github.com/DanielJohnsonTGI) | [@DanielTGI](https://twitter.com/DanielTGI)|
 | Henry Legge   |      [tobbinator](https://github.com/tobbinator)          | 
 | Chloe Gutteridge|       [Chloe G](https://github.com/ChloeG)        |   [@AcubensArt](https://twitter.com/AcubensArt)  
+
+### Server Details
+URL: yrs.ejdigby.com  
+
+### SSH  
+Host: direct.ejdigby.com  
+User: YRS  
+Pass: Ask Ed  
+###SFTP  
+Host: direct.ejdigby.com  
+User: YRS  
+Pass: Ask Ed  
+Port: 22  
