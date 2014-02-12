@@ -7,3 +7,6 @@ h2 {
 .non-border {
 	border: 0px solid black;
 }
+body {
+	background-image: url(http://subtlepatterns.com/patterns/ricepaper.png)
+}
