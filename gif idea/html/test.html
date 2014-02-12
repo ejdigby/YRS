@@ -1,0 +1,12 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $("p").mouseenter(function() {
+        $("p").fadeTo("fast", 1);
+    });
+    $("p").mouseleave(function() {
+        $("p").fadeTo("fast", 0.25);
+    });
+});
+</script>
+<p>Hello!</p>
