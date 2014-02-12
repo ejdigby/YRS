@@ -1,0 +1,9 @@
+.border {
+	border: 1px solid black;
+}
+h2 {
+	text-align: center;
+}
+.non-border {
+	border: 0px solid black;
+}

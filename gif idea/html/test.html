@@ -1,12 +1,21 @@
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>
-$(document).ready(function() {
-    $("p").mouseenter(function() {
-        $("p").fadeTo("fast", 1);
-    });
-    $("p").mouseleave(function() {
-        $("p").fadeTo("fast", 0.25);
-    });
-});
-</script>
-<p>Hello!</p>
+<!DOCTYPE html>
+<head>
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+    		$("h2").mouseenter(function() {
+    			$("h2").addClass("border");
+    		});
+    		$("h2").mouseleave(function() {
+    			$("h2").removeClass();
+    		});
+		});
+	</script>
+</head>
+<body>
+	<h2>The test webpage for the practise project</h2>
+	<form>
+		Name: <input type='text' name='name'></input>
+	</form>
+</body>
