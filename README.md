@@ -25,4 +25,4 @@ Port: 22
 ### SQL Details
 URL: phpmyadmin.ejdigby.com  
 User: YRS  
-Pass: 9gkYB9p@*d0  
+Pass: MNWua8Xb39qzYnYB
