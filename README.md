@@ -22,3 +22,7 @@ Host: direct.ejdigby.com
 User: YRS  
 Pass: Ask Ed  
 Port: 22  
+### SQL Details
+URL: phpmyadmin.ejdigby.com  
+User: YRS  
+Pass: 9gkYB9p@*d0  
