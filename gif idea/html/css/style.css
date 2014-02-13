@@ -1,12 +1,16 @@
 .border {
-	border: 1px solid black;
+	border: 4px solid #990033;
 }
 h2 {
 	text-align: center;
+	width: 700px;
+	font-size: 30px;
+	border: 4px solid black;
 }
 .non-border {
 	border: 0px solid black;
 }
 body {
-	background-image: url(http://subtlepatterns.com/patterns/ricepaper.png)
+	background-image: url(http://subtlepatterns.com/patterns/ricepaper.png);
+	font-family: 'Ubuntu', sans-serif;
 }
