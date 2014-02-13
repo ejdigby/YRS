@@ -9,5 +9,5 @@ if (!mysqli_query($con,$sql))
   }
 echo "1 record added";
 
-return
+header('Location: index.php');    
 ?>
