@@ -1,4 +1,3 @@
-
 <html>
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
@@ -31,9 +30,28 @@
 		<span style = "font-family:Helvetica;">Search:</span> <input type='text' name='name'></input>
 	</form>
 	<p>
-		I am not entirely sure what I am meant to be putting here but right now it is only going to be this text since we can't do anything without a game plan. I also wanted to see what the font looked like too!
+
     </p>
     <div>Control Panel Concept 3000</div>
+    <A HREF="signup.html">signup</A>
 
+    <?php include 'sql.php'; 
+
+    $result = mysqli_query($con,"SELECT * FROM Users");
+    echo "<br>";
+    while($row = mysqli_fetch_array($result))
+      {
+      echo $row['Uname'] . " " . substr($row['udate'], 0, 10) ;
+
+      $newdate = substr($row['udate'],0,10);
+      $sql="UPDATE INTO Users (udate)
+	  VALUES ('$newdate')";
+      echo "<br>";
+     
+      }
+
+     
+
+    ?>
 </body>
 </html>
