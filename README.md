@@ -14,11 +14,11 @@ The repo for our YRS team
 URL: yrs.ejdigby.com  
 
 ### SSH  
-Host: direct.ejdigby.com  
+Host: remote.ejdigby.com  
 User: YRS  
 Pass: Ask Ed  
 ###SFTP  
-Host: direct.ejdigby.com  
+Host: remote.ejdigby.com  
 User: YRS  
 Pass: Ask Ed  
 Port: 22  
