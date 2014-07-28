@@ -64,3 +64,11 @@ header h1{
 	margin-bottom: auto;
 	padding-top: 275px;
 }
+#content a{
+	color:#fff;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	opacity: 0.4;
+}
