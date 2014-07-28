@@ -24,5 +24,5 @@ Pass: Ask Ed
 Port: 22  
 ### SQL Details
 URL: phpmyadmin.ejdigby.com  
-User: YRS  
-Pass: 9gkYB9p@*d0
+User: paper 
+Pass: cDRpeGS3UrtbGv48
