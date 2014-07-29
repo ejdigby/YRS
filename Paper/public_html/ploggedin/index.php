@@ -1,5 +1,5 @@
-<!-- <?php
-	/*
+ <?php
+	
 	// Include the sql configuration file. This has all the sql credentials
 	include '../../sqlconf.php';
 
@@ -18,14 +18,15 @@
 		$_SESSION['Userid'] = $_COOKIE['uid'];
 
 		// Store variables from sql table
-		$result = mysqlo_query($con,"SELECT * FROM Users WHERE Uname = '$_SESSION[Username]';");
+		$result = mysqli_query($con,"SELECT * FROM Users WHERE Uname = '$_SESSION[Username]';");
 			while($row = mysqli_fetch_array($result)){
 				$_SESSION['Firstname'] = $row['First_Name'];
 				$_SESSION['Lastname'] = $row['Last_Name'];
 				$_SESSION['Email'] = $row['email'];
 			}
-			mysqli_close($con);*/
-?> -->
+			mysqli_close($con);
+?>
+
 <!DOCTYPE html>
 <!-- This will be the managers dashbaord -->
 <html>
@@ -40,7 +41,7 @@
 		</div>
 		<div id="logout">
 			<!-- <a class="logout"href="../logout.php"><span > <?php /* echo $_SESSION['Username']; */?></span></a> -->
-			<a class="logout"href="../logout.php"><span >Username</span></a>
+			<a class="logout"href="../logout.php"><span ><?php echo $_SESSION['Username']; ?></span></a>
 		</div>
 	</header>
 	<div id="wrap">

@@ -8,7 +8,7 @@
 		header('Location /');
 	}
 	if(!isset($_COOKIE['uid'])){
-		heaser('Location: /');
+		header('Location: /');
 	}
 
 	// Start session variables using the cookies
@@ -18,28 +18,29 @@
 		$_SESSION['Userid'] = $_COOKIE['uid'];
 
 		// Store variables from sql table
-		$result = mysqlo_query($con,"SELECT * FROM Users WHERE Uname = '$_SESSION[Username]';");
+		$result = mysqli_query($con,"SELECT * FROM Users WHERE Uname = '$_SESSION[Username]';");
 			while($row = mysqli_fetch_array($result)){
 				$_SESSION['Firstname'] = $row['First_Name'];
 				$_SESSION['Lastname'] = $row['Last_Name'];
 				$_SESSION['Email'] = $row['email'];
 			}
 			mysqli_close($con);
-?>
+?> 
 <!DOCTYPE html>
 <!-- This will be the managers dashbaord -->
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Paper - Customer</title>
+	<title>Paper - Manager</title>
 </head>
 <body>
 	<header>
-	 <div id="dashboard">
-	 <h1>Dashboard - Customer</h1>
+		<div id="dashboard">
+			<h1>Dashboard - Manager</h1>
 		</div>
 		<div id="logout">
-			<a class="logout"href="../logout.php"><span >Username</span></a>
+			<!-- <a class="logout"href="../logout.php"><span > <?php /* echo $_SESSION['Username']; */?></span></a> -->
+			<a class="logout"href="../logout.php"><span ><?php  echo $_SESSION['Username']; ?></span></a>
 		</div>
 	</header>
 	<div id="wrap">
@@ -47,50 +48,44 @@
 			<div id="row">
 				<a href="addcustomer.html">
 					<div id="box">
-						<img src="images/edit.png">
-						<p>Edit My Order</p>
+						<img src="images/plus.png">
+						<p>Add Customer</p>
 					</div>
 				</a>
-				<a href="addcustomer.html">
-					<div id="box" class="right">
-						<img src="images/question.png">
-						<p>Where's My Paper?</p>
+				<a href="viewcustomers.html">
+					<div id="box">
+						<img src="images/eye.png">
+						<p>View Customers</p>
+					</div>
+				</a>
+				<a href="rounds.html">
+					<div id="box">
+						<img src="images/edit.png">
+						<p>Edit Rounds</p>
 					</div>
 				</a>
 			</div>
 			<div id="row1">
-				<a href="addcustomer.html">
+				<a href="manageboys.html">
 					<div id="box">
-						<img src="images/invoice.png">
-						<p>Invoices</p>
+						<img src="images/gear.png">
+						<p>Manage Paper Boys</p>
 					</div>
 				</a>
 				<a href="feedback.html">
-					<div id="box" class="right">
-						<img src="images/message.png">
-						<p>Feedback</p>
+					<div id="box">
+						<img src="images/edit.png">
+						<p>Manage Invoices</p>
 					</div>
 				</a>
+				<a href="feedback.html">
+					<div id="box">
+						<img src="images/message.png">
+						<p>View Feedback</p>
+					</div>
+				</a>
+				
 			</div>
-				<!--<a href="viewcustomers.html"><div id="box">
-					<img src="images/eye.png">
-					<p>View Customers</p>
-				</div></a>
-				<a href="rounds.html"><div id="box">
-					<img src="images/edit.png">
-					<p>Edit Rounds</p>
-				</div></a>
-			</div>
-			<div id="row1">
-				<a href="manageboys.html"><div id="box">
-					<img src="images/gear.png">
-					<p>Manage Paper Boys</p>
-				</div></a>
-				<a href="feedback.html"><div id="box">
-					<img src="images/message.png">
-					<p>Feedback</p>
-				</div></a>-->
-			</div> 
 		</div>
 	</div>
 </body>
