@@ -1,0 +1,148 @@
+* {
+	padding:0;
+	margin:0;
+}
+body, html {
+	height: 100%;
+	width: 100%;
+	font-family: "Helvetica"
+}
+header{
+	height: 60px;
+	width: 100%;
+	background-color:#000;
+}
+header h1{
+	display: inline;
+	color:#fff;
+	line-height: 60px;
+}
+#dashboard {
+	float: left;
+	padding-left: 40px;
+}
+#logout {
+
+}
+#wrap {
+	width: 1250px;
+	background-color: #eee;
+	margin-left: auto;
+	margin-right: auto;
+	height: 99%;
+}
+#content {
+	padding: 100px;
+	width: 1250px;
+}
+#box{
+	color:#fff;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	margin-left: 50px;
+	background-color: #666666;
+	border-radius:50px;
+	}
+#row, #row1{
+	display: inline-block;
+	height: 300px;
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -100px;
+	padding-left: 150px;
+}
+#row1 {
+	margin-top: 50px;
+}
+.right{
+
+	padding-left: 20px;
+}
+#row {
+	display: inline-block;
+	height: 300px;
+	width: 800px;
+	margin-top: -50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#row p, #row1 p{
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-top: 55px;
+}
+a{
+	color:#fff;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	opacity: 0.4;
+}
+#box img{
+	width: 128px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	padding-left: 85px;
+	padding-top: 75px;
+}
+.logout:hover span {
+	display:none;
+}
+.logout:hover:before {
+	content:"logout";
+		
+}
+#logout {
+	float: right;
+	padding-right: 40px;
+	display: inline;
+	color: #ffffff;
+	font-family: 'Helvetica';
+	line-height: 65px;
+	font-size: 22px;
+	text-decoration: underline;
+}
+/* Contact From */
+#Answer {
+	padding: 50px;
+	display: inline;
+}
+#Comment {
+	margin-left: 50px;
+}
+#Rating {
+	margin-left:50px;
+}
+.CommentBox {
+	width: 950px;
+	height: 100px;
+}
+.Button {
+	margin-top: 40px;
+	margin-left: 400px;
+	width: 100px;
+	height: 50px;
+}
+.Radio {
+	width:30px;
+}
+#pagename {
+display: inline;
+	text-align: center;
+	padding-left: 500px;
+}
+#map  {
+	background-color: #ff00cc;
+	height: 400px;
+	width: 400px;
+}
+#distance {
+	margin-right: 10px;
+	float:right;
+	margin-right: 250px;
+}
