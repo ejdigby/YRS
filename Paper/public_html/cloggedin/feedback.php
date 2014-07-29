@@ -1,3 +1,6 @@
+<?php
+	include '../../../sqlconf.php';
+?>
 <!DOCTYPE html>
 <!-- This will be the managers dashbaord -->
 <html>
@@ -15,7 +18,7 @@
 			<h1>Feedback</h1>
 		</div>
 		<div id="logout">
-			<a class="logout" href="../logout.php"><span >Username</span></a>
+				<a class="logout" href="../logout.php"><span ><?php  echo $_COOKIE['username']; ?></span></a>
 		</div>
 	</header>
 	<div id="wrap">

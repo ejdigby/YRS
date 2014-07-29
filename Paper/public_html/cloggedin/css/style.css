@@ -136,3 +136,13 @@ display: inline;
 	text-align: center;
 	padding-left: 500px;
 }
+#map  {
+	background-color: #ff00cc;
+	height: 400px;
+	width: 400px;
+}
+#distance {
+	margin-right: 10px;
+	float:right;
+	margin-right: 250px;
+}

@@ -45,13 +45,13 @@
 	<div id="wrap">
 		<div id="content">
 			<div id="row">
-				<a href="addcustomer.html">
+				<a href="editorder.php">
 					<div id="box">
 						<img src="images/edit.png">
 						<p>Edit My Order</p>
 					</div>
 				</a>
-				<a href="addcustomer.html">
+				<a href="where.php">
 					<div id="box" class="right">
 						<img src="images/question.png">
 						<p>Where's My Paper?</p>
@@ -59,13 +59,13 @@
 				</a>
 			</div>
 			<div id="row1">
-				<a href="addcustomer.html">
+				<a href="invoices.php">
 					<div id="box">
 						<img src="images/invoice.png">
 						<p>Invoices</p>
 					</div>
 				</a>
-				<a href="feedback.html">
+				<a href="feedback.php">
 					<div id="box" class="right">
 						<img src="images/message.png">
 						<p>Feedback</p>
