@@ -21,17 +21,18 @@ header h1{
 	padding-left: 40px;
 }
 #logout {
-	float: right;
-	padding-right: 40px;
+
 }
 #wrap {
 	width: 1250px;
 	background-color: #eee;
 	margin-left: auto;
 	margin-right: auto;
+	height: 99%;
 }
 #content {
 	padding: 100px;
+	width: 1250px;
 }
 #box{
 	color:#fff;
@@ -42,25 +43,32 @@ header h1{
 	background-color: #666666;
 	border-radius:50px;
 	}
-#row{
+#row, #row1{
 	display: inline-block;
 	height: 300px;
-	width:1200px;
+	width:800px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: -100px;
+	padding-left: 150px;
 }
 #row1 {
+	margin-top: 50px;
+}
+.right{
+
+	padding-left: 20px;
+}
+#row {
 	display: inline-block;
 	height: 300px;
 	width: 800px;
-	margin-top: 50px;
+	margin-top: -50px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 200px;
 }
 #row p, #row1 p{
 	text-align: center;
-	height: 20px;
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-top: 55px;
@@ -80,4 +88,21 @@ a:hover{
 	text-align: center;
 	padding-left: 85px;
 	padding-top: 75px;
+}
+.logout:hover span {
+	display:none;
+}
+.logout:hover:before {
+	content:"logout";
+		
+}
+.logout {
+	float: right;
+	padding-right: 40px;
+	display: inline;
+	color: #ffffff;
+	font-family: 'Helvetica';
+	line-height: 65px;
+	font-size: 22px;
+	text-decoration: underline;
 }
