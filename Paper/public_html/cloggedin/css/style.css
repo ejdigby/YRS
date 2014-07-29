@@ -9,6 +9,7 @@ body, html {
 }
 header{
 	height: 60px;
+	width: 100%;
 	background-color:#000;
 }
 header h1{
@@ -16,7 +17,7 @@ header h1{
 	color:#fff;
 	line-height: 60px;
 }
-#pagename {
+#dashboard {
 	float: left;
 	padding-left: 40px;
 }
@@ -96,7 +97,7 @@ a:hover{
 	content:"logout";
 		
 }
-.logout {
+#logout {
 	float: right;
 	padding-right: 40px;
 	display: inline;
@@ -105,4 +106,33 @@ a:hover{
 	line-height: 65px;
 	font-size: 22px;
 	text-decoration: underline;
+}
+/* Contact From */
+#Answer {
+	padding: 50px;
+	display: inline;
+}
+#Comment {
+	margin-left: 50px;
+}
+#Rating {
+	margin-left:50px;
+}
+.CommentBox {
+	width: 950px;
+	height: 100px;
+}
+.Button {
+	margin-top: 40px;
+	margin-left: 400px;
+	width: 100px;
+	height: 50px;
+}
+.Radio {
+	width:30px;
+}
+#pagename {
+display: inline;
+	text-align: center;
+	padding-left: 500px;
 }
