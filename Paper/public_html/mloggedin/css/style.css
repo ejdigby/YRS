@@ -109,3 +109,14 @@ display: inline;
 	text-align: center;
 	padding-left: 500px;
 }
+#form {
+	padding-left: 225px;
+}
+.button {
+	width: 75px;
+	height: 25px;
+	margin-left: 150px;
+}
+.text{
+	width: 400px;
+}
