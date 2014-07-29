@@ -1,11 +1,9 @@
 <?php
 	
 	include '/assets/conf.php';
-	$pagename = "Dashboard";
+	$pagename = "Paperboy Dashboard";
 	$dirnm = 2;
 ?>
-<!DOCTYPE html>
-<!-- This will be the managers dashbaord -->
 <html>
 <?php include '../assets/head.php'; ?>
 <body>

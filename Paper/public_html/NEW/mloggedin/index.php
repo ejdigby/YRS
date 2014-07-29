@@ -1,7 +1,7 @@
 <?php
 		
 	include '/assets/conf.php';
-	$pagename = " Manager Dashboard";
+	$pagename = "Manager Dashboard";
 	$dirnm = 2;
 ?>
 <html>
