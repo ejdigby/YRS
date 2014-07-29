@@ -53,11 +53,11 @@ header h1{
 #row1 {
 	display: inline-block;
 	height: 300px;
-	width: 800px;
+	width: 1200px;
 	margin-top: 50px;
 	margin-left: auto;
+	margin-left: -30px;
 	margin-right: auto;
-	padding-left: 150px;
 }
 
 #row p, #row1 p{
@@ -90,7 +90,11 @@ a:hover{
 	content:"logout";
 		
 }
-.logout {
+#dashboard {
+	float: left;
+	padding-left: 40px;
+}
+#logout {
 	float: right;
 	padding-right: 40px;
 	display: inline;
@@ -99,4 +103,9 @@ a:hover{
 	line-height: 65px;
 	font-size: 22px;
 	text-decoration: underline;
+}
+#pagename {
+display: inline;
+	text-align: center;
+	padding-left: 500px;
 }
