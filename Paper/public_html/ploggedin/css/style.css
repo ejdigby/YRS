@@ -28,11 +28,9 @@ header h1{
 	background-color: #eee;
 	margin-left: auto;
 	margin-right: auto;
-	height: 99%;
 }
 #content {
 	padding: 100px;
-	width: 1250px;
 }
 #box{
 	color:#fff;
@@ -43,32 +41,28 @@ header h1{
 	background-color: #666666;
 	border-radius:50px;
 	}
-#row, #row1{
+#row{
 	display: inline-block;
 	height: 300px;
-	width:800px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -100px;
-	padding-left: 350px;
-}
-#row1 {
-	margin-top: 50px;
-}
-.right{
-
-	padding-left: 20px;
-}
-#row {
-	display: inline-block;
-	height: 300px;
-	width: 800px;
+	width:1200px;
 	margin-top: -50px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-left: 150px;
 }
+#row1 {
+	display: inline-block;
+	height: 300px;
+	width: 800px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 100px;
+}
+
 #row p, #row1 p{
 	text-align: center;
+	height: 20px;
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-top: 55px;
