@@ -1,18 +1,15 @@
-<!DOCTYPE html>
+<?php
+	
+	include '../../assets/conf.php';
+	$pagename = "Add Customer";
+	$dirnm = 3;
+?>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Paper - Add Customer</title>
-</head>
+
+<?php include '../../assets/head.php'; ?>
+
 <body>
-	<header>
-		<div id="pagename">
-			<h1>Dashboard - Add Customer</h1>
-		</div>
-		<div id="logout">
-			<h1><a href="">Logout</a></h1>
-		</div>
-	</header>
+	<?php include '../../assets/header.php'; ?>
 	<div id="wrap">
 		<div id="content">
 			<div id="form">

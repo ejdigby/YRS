@@ -1,15 +1,14 @@
 <?php
 	
 	include '/assets/conf.php';
-	$pagename = "Dashboard";
+	$pagename = "Customer Dashboard ";
+	$dirnm = 2;
 ?>
 <!DOCTYPE html>
 <!-- This will be the managers dashbaord -->
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Paper - Customer</title>
-</head>
+
+<?php include '../assets/head.php'; ?>
 <body>
 
 	<?php include '../assets/header.php'; ?>

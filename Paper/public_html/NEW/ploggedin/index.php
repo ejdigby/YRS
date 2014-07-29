@@ -2,14 +2,12 @@
 	
 	include '/assets/conf.php';
 	$pagename = "Dashboard";
+	$dirnm = 2;
 ?>
 <!DOCTYPE html>
 <!-- This will be the managers dashbaord -->
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Paper - Manager</title>
-</head>
+<?php include '../assets/head.php'; ?>
 <body>
 	
 	<?php include '../assets/header.php'; ?>

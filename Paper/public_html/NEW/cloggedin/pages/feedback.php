@@ -1,16 +1,12 @@
 <?php
 	
 	include '../../assets/conf.php';
-	$pagename = "Dashboard";
+	$pagename = "Feedback";
+	$dirnm = 3;
 ?>
-
-<!DOCTYPE html>
-<!-- This will be the managers dashbaord -->
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<title>Paper - Feedback</title>
-</head>
+<?php include '../../assets/head.php'; ?>
 <body>
 	<?php include '../../assets/header.php'; ?>
 	<div id="wrap">

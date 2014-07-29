@@ -109,9 +109,6 @@ display: inline;
 	text-align: center;
 	padding-left: 500px;
 }
-#form {
-	padding-left: 225px;
-}
 .button {
 	width: 75px;
 	height: 25px;
@@ -119,4 +116,10 @@ display: inline;
 }
 .text{
 	width: 400px;
+}
+td {
+	width: 2000px;
+}
+table, td, tr {
+	border: 1px solid black;
 }

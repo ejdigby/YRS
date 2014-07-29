@@ -1,15 +1,11 @@
 <?php
 	
 	include '../../assets/conf.php';
-	$pagename = "Dashboard";
+	$pagename = "Invoices";
+	$dirnm = 3;
 ?>
-
-<!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<title>Paper - Invoices</title>
-</head>
+<?php include '../../assets/head.php'; ?>
 <body>
 	<?php include '../../assets/header.php'; ?>
 	<div id="wrap">
