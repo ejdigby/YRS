@@ -1,16 +1,7 @@
 <?php
-	if(isset($_COOKIE['username']) AND isset($_COOKIE['uid'])) {
-     	if ($_COOKIE['ulevel'] == 0) {
-     		header('Location: /cloggedin/');
-     	} elseif ($_COOKIE['ulevel'] == 1) {
-     		header('Location: /ploggedin/');
-     	} else {
-     		header('Location: /mloggedin/'); 
-     	}
-}
-	
 
-include '/assets/conf.php';
+
+//include 'assets/conf.php';
 	$pagename = "Dashboard";
 	$dirnm = 1;
 ?>
@@ -30,7 +21,7 @@ include '/assets/conf.php';
 			</div>
 			<form method="post" action="loginaction.php">
 				<input type="text" name="username" id="username" class="UserPass">
-			
+				
 			<br>
 			<div id="Password">
 				<h1 class="User/Pass">Password:</h1>

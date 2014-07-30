@@ -1,8 +1,9 @@
 <?php
-	
 	include '../../assets/conf.php';
+	include '../../assets/Customerdata.php';
 	$pagename = "Edit My Order";
 	$dirnm = 3;
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,6 +16,10 @@
 		<br>
 		<br>
 		<h2>Address:</h2>
+		<p><?php echo $_SESSION['Addres']; ?></p>
+		<br>
+		<br>
+		<h2>Post Code:</h2>
 		<p>...</p>
 		<br>
 		<h2>Paper(s):</h2>
