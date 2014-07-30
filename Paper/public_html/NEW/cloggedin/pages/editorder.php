@@ -1,8 +1,13 @@
 <?php
 	include '../../assets/conf.php';
-	include '../../assets/Customerdata.php';
+	include '../../assets/sqlconf.php';
 	$pagename = "Edit My Order";
 	$dirnm = 3;
+
+	$result = mysqli_query($con, "SELECT * FROM Customers WHERE Uname = '$_COOKIE[username]'");
+	$row = mysqli_fetch_array($result);
+
+
 
 ?>
 <!DOCTYPE html>
@@ -16,7 +21,7 @@
 		<br>
 		<br>
 		<h2>Address:</h2>
-		<p><?php echo $_SESSION['Addres']; ?></p>
+		<p><?php echo $row['Address']; ?></p>
 		<br>
 		<br>
 		<h2>Post Code:</h2>

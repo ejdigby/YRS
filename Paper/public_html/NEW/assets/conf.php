@@ -1,12 +1,12 @@
 <?php
 	include 'sqlconf.php';
 
-	/*if(!isset($_COOKIE['username'])) {
+	if(!isset($_COOKIE['username'])) {
 		header('Location /');
 	}
 	if(!isset($_COOKIE['uid'])){
 		header('Location: /');
-	}*/
+	}
 	session_start();
 		//Store variable from cookies
 		$_SESSION['Username'] = $_COOKIE['username'];

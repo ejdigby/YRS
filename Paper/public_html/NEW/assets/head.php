@@ -11,5 +11,7 @@
 
 	<title>Paper - <?php echo $pagename; ?></title>
 	 <link rel="stylesheet" type="text/css" href=" <?php echo $csslink;?> ">
+	 
+	<meta charset="UTF-8">
 
 </head> 

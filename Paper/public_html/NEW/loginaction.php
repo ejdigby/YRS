@@ -1,6 +1,11 @@
 
 
 <?php 
+`git pull`;
+	error_reporting( E_ALL );
+	ini_set( 'display_errors', 1 );
+	ini_set( 'html_errors', 'On' );
+
 echo "hello";
 	$tempuname = $_POST['username'];
 	include 'assets/sqlconf.php';
@@ -21,8 +26,8 @@ else {
 		print_r($result);
 
 		 $row = mysqli_fetch_array($result);
-					 print $row['Uname'];
-			 /*}
+					 
+			 
 			if ("$_POST[username]" == $row['Uname']) {
 				$username = $row['Uname'];
 					if ("$_POST[password]" == $row['Pword'] ) {
@@ -47,6 +52,6 @@ else {
 			} else {
 					echo 'Username is wrong';
 			}
-		*/
+		
 			mysqli_close($con);
 ?> 

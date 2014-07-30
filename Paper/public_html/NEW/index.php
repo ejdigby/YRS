@@ -1,7 +1,17 @@
 <?php
 
-
-//include 'assets/conf.php';
+	include 'assets/error.php';
+	
+        if(isset($_COOKIE['username']) AND isset($_COOKIE['uid'])) {
+        	if ($_COOKIE['ulvl'] == 0 ){
+        		header('Location: /cloggedin/');
+        	} else if ($_COOKIE['ulvl'] == 1) {
+        		header('Location: /ploggedin/');
+        	} else {
+     			header('Location: /mloggedin/'); 
+			}
+		}
+ 	//include 'assets/conf.php';
 	$pagename = "Dashboard";
 	$dirnm = 1;
 ?>
