@@ -16,17 +16,12 @@ header h1{
 	color:#fff;
 	line-height: 60px;
 }
-a{
-	color:#fff;
-	text-decoration: none;
-}
-a:hover{
-	text-decoration: underline;
-	opacity: 0.4;
-}
 #pagename {
 	float: left;
 	padding-left: 40px;
+}
+#logout {
+
 }
 #wrap {
 	width: 1250px;
@@ -37,36 +32,106 @@ a:hover{
 #content {
 	padding: 100px;
 }
-#Logo {
-	height: 150px;
-	width: 150px;
-	margin-left: 460px;
+#box{
+	color:#fff;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+	margin-left: 50px;
+	background-color: #666666;
+	border-radius:50px;
+	}
+#row{
+	display: inline-block;
+	height: 300px;
+	width:1200px;
+	margin-top: -50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-left: -30px;
 }
-#Username {
-	height:50px;
-	width:500px;
-	margin-left: 440px;
+#row1 {
+	display: inline-block;
+	height: 300px;
+	width: 1200px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-left: -30px;
+	margin-right: auto;
 }
-#Password {
-	height:50px;
-	width:500px;
-	margin-left: 440px;
+
+#row p, #row1 p{
+	text-align: center;
+	height: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-top: 55px;
 }
-#Submit {
-	height:150px;
-	width:500px;
-	margin-left: 381px;
+a{
+	color:#fff;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	opacity: 0.4;
+}
+#box img{
+	width: 128px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	padding-left: 85px;
+	padding-top: 75px;
+}
+.logout:hover span {
+	display:none;
+}
+.logout:hover:before {
+	content:"logout";
+		
+}
+#dashboard {
+	float: left;
+	padding-left: 40px;
 }
 #logout {
 	float: right;
 	padding-right: 40px;
+	display: inline;
+	color: #ffffff;
+	font-family: 'Helvetica';
+	line-height: 65px;
+	font-size: 22px;
+	text-decoration: underline;
 }
-.UserPass {
-	width: 300px;
-	margin-left: 375px
+#pagename {
+display: inline;
+	text-align: center;
+	padding-left: 500px;
 }
-.Button {
-	height: 30px;
-	width: 200px;
-	margin-left: 425px;
+#form {
+	padding-left: 225px;
+}
+.button {
+	width: 75px;
+	height: 25px;
+	margin-left: 150px;
+}
+.text{
+	width: 400px;
+}
+td {
+	width: 2000px;
+}
+th {
+	background-color: grey;
+	color: white;
+}
+table, td, tr, th{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+tr {
+	background-color: white;
 }
