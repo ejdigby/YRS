@@ -146,3 +146,11 @@ display: inline;
 	float:right;
 	margin-right: 250px;
 }
+#info {
+	width: 600px;
+	float: left;
+}
+#edit a, #edit{
+	margin-top:200px;
+	color: black !important;
+}

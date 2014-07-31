@@ -139,3 +139,13 @@ td {
 	padding-bottom: 7px;
 	vertical-align: top;
 }
+#addround {
+	float:right;
+}
+#map {
+	margin-left:300px;
+	margin-top:-90px;
+	padding-bottom: 20px;}
+#round {
+	margin-top: -40px;
+}

@@ -1,8 +1,15 @@
 <?php
-	
+		
 	include '/assets/conf.php';
 	$pagename = "Customer Dashboard ";
 	$dirnm = 2;
+
+	if(!isset($_COOKIE['username'])) {
+		header('Location /');
+	}
+	if(!isset($_COOKIE['uid'])){
+		header('Location: /');
+	}
 ?>
 <!DOCTYPE html>
 <!-- This will be the managers dashbaord -->

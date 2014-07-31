@@ -9,9 +9,9 @@ else {
   echo "Connected!!";
 }
 
-$sql="INSERT INTO Customers (Uname, Pword, Post_Code, House_Number, Street, Round, Paper, Notes)
+$sql="INSERT INTO Rounds (iNumber, PostCode, Roundnmb)
 VALUES
-('$_POST[name]','$_POST[pword]','$_POST[pcode]','$_POST[hnumb]','$_POST[street]','$_POST[round]','$_POST[papers]','$_POST[notes]')";
+('$_POST[number]','$_POST[postcode]','$_POST[roundnumber]')";
 
 if (!mysqli_query($con,$sql))
   {
@@ -19,5 +19,5 @@ if (!mysqli_query($con,$sql))
   }
 echo "1 record added";
 
-header('Location: /');   	
+header('Location: editrounds.php');   	
 ?>

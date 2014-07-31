@@ -7,6 +7,7 @@
 	if(!isset($_COOKIE['uid'])){
 		header('Location: /');
 	}
+	
 	session_start();
 		//Store variable from cookies
 		$_SESSION['Username'] = $_COOKIE['username'];
@@ -17,6 +18,7 @@
 			while($row = mysqli_fetch_array($result)){
 				$_SESSION['Firstname'] = $row['First_Name'];
 				$_SESSION['Lastname'] = $row['Last_Name'];
+
 			}
 	mysqli_close($con);
 ?>

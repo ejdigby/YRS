@@ -3,6 +3,13 @@
 	include '/assets/conf.php';
 	$pagename = "Manager Dashboard";
 	$dirnm = 2;
+
+	if(!isset($_COOKIE['username'])) {
+		header('Location /');
+	}
+	if(!isset($_COOKIE['uid'])){
+		header('Location: /');
+	}
 ?>
 <html>
 <?php include '../assets/head.php'; ?>
