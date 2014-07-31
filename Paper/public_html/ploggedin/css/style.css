@@ -1,3 +1,9 @@
+#tester{
+	background-color: #ff0000;
+	width:100px;
+	height:100px;
+}
+
 * {
 	padding:0;
 	margin:0;
@@ -25,12 +31,24 @@ header h1{
 }
 #wrap {
 	width: 1250px;
+	height: 675px;
 	background-color: #eee;
 	margin-left: auto;
 	margin-right: auto;
 }
 #content {
 	padding: 100px;
+}
+#Map {
+	background-color: #ff0000;
+	width: 500px;
+	height: 500px;
+	float: left;
+}
+#TextBox {
+	width: 500px;
+	height: 500px;
+	float: right;
 }
 #box{
 	color:#fff;
@@ -48,16 +66,16 @@ header h1{
 	margin-top: -50px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-left: 150px;
+	margin-left: -30px;
 }
 #row1 {
 	display: inline-block;
 	height: 300px;
-	width: 800px;
+	width: 1200px;
 	margin-top: 50px;
 	margin-left: auto;
+	margin-left: -30px;
 	margin-right: auto;
-	padding-left: 100px;
 }
 
 #row p, #row1 p{
@@ -108,4 +126,18 @@ a:hover{
 display: inline;
 	text-align: center;
 	padding-left: 500px;
+}
+#form {
+	padding-left: 225px;
+}
+#button {
+	height: 60px;
+	width: 550px;
+	margin-top: 135px
+}
+.button {
+	width: 400px;
+	height: 50px;
+	margin-left: 100px;
+	background-color: green;
 }
