@@ -24,22 +24,27 @@
 	</header>
 	<div id="wrap">
 		<div id="content">
+			<div id="form">
+			
+			<form method="post" action="loginaction.php">
 			<div id="Logo"><img src="Images/logo.png"></div>
 			<br>
+			<div id="inputs">
 			<div id="Username">
 				<h1 class="User/Pass">Username:</h1>
-			</div>
-			<form method="post" action="loginaction.php">
+			</div><br>
 				<input type="text" name="username" id="username" class="UserPass">
 				
 			<br>
 			<div id="Password">
 				<h1 class="User/Pass">Password:</h1>
-			</div>
+			</div><br>
 				<input type="password" name="password" id="password" class="UserPass">
 				
-			<input type="submit" value="Submit" class="Button">
+			<input type="submit" value="Login" class="Button">
+			</div>
 			</form>
+		</div>
 		</div>
 	</div>
 </body>

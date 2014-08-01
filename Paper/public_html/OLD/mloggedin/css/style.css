@@ -9,7 +9,6 @@ body, html {
 }
 header{
 	height: 60px;
-	width: 100%;
 	background-color:#000;
 }
 header h1{
@@ -17,7 +16,7 @@ header h1{
 	color:#fff;
 	line-height: 60px;
 }
-#dashboard {
+#pagename {
 	float: left;
 	padding-left: 40px;
 }
@@ -29,11 +28,9 @@ header h1{
 	background-color: #eee;
 	margin-left: auto;
 	margin-right: auto;
-	height: 99%;
 }
 #content {
 	padding: 100px;
-	width: 1250px;
 }
 #box{
 	color:#fff;
@@ -44,32 +41,28 @@ header h1{
 	background-color: #666666;
 	border-radius:50px;
 	}
-#row, #row1{
+#row{
 	display: inline-block;
 	height: 300px;
-	width:800px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -100px;
-	padding-left: 150px;
-}
-#row1 {
-	margin-top: 50px;
-}
-.right{
-
-	padding-left: 20px;
-}
-#row {
-	display: inline-block;
-	height: 300px;
-	width: 800px;
+	width:1200px;
 	margin-top: -50px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-left: -30px;
 }
+#row1 {
+	display: inline-block;
+	height: 300px;
+	width: 1200px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-left: -30px;
+	margin-right: auto;
+}
+
 #row p, #row1 p{
 	text-align: center;
+	height: 20px;
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-top: 55px;
@@ -97,6 +90,10 @@ a:hover{
 	content:"logout";
 		
 }
+#dashboard {
+	float: left;
+	padding-left: 40px;
+}
 #logout {
 	float: right;
 	padding-right: 40px;
@@ -107,50 +104,25 @@ a:hover{
 	font-size: 22px;
 	text-decoration: underline;
 }
-/* Contact From */
-#Answer {
-	padding: 50px;
-	display: inline;
-}
-#Comment {
-	margin-left: 50px;
-}
-#Rating {
-	margin-left:50px;
-}
-.CommentBox {
-	width: 950px;
-	height: 100px;
-}
-.Button {
-	margin-top: 40px;
-	margin-left: 400px;
-	width: 100px;
-	height: 50px;
-}
-.Radio {
-	width:30px;
-}
 #pagename {
 display: inline;
 	text-align: center;
-	padding-left: 450px;
+	padding-left: 500px;
 }
-#map  {
-	background-color: #ff00cc;
-	height: 400px;
+#form {
+	padding-left: 225px;
+}
+.button {
+	width: 75px;
+	height: 25px;
+	margin-left: 150px;
+}
+.text{
 	width: 400px;
 }
-#distance {
-	margin-right: 10px;
-	float:right;
-	margin-right: 250px;
+td {
+	width: 2000px;
 }
-#info {
-	width: 600px;
-	float: left;
-}
-#edit a, #edit{
-	margin-top:200px;
-	color: black !important;
+table, td, tr {
+	border: 1px solid black;
 }
