@@ -10,6 +10,10 @@
 	if(!isset($_COOKIE['uid'])){
 		header('Location: /');
 	}
+
+	if($_COOKIE['ulvl'] != 2){
+		header('Location: /');
+	}
 ?>
 <html>
 <?php include '../assets/head.php'; ?>
@@ -23,7 +27,7 @@
 				<a href="pages/addcustomer.php">
 					<div id="box">
 						<img src="images/plus.png">
-						<p>Add Customer</p>
+						<p>Add User</p>
 					</div>
 				</a>
 				<!-- View Customers -->
@@ -52,7 +56,7 @@
 				<!-- Manage Invoices -->
 				<a href="pages/invoices.php">
 					<div id="box">
-						<img src="images/edit.png">
+						<img src="images/invoices.png">
 						<p>Manage Invoices</p>
 					</div>
 				</a>

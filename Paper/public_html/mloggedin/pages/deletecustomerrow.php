@@ -5,7 +5,7 @@
 
 	echo $_POST['row'];
 
-	$sql="DELETE FROM Rounds WHERE iNumber = '$_POST[row]'";
+	$sql="DELETE FROM Customers WHERE iNum = '$_POST[row]'";
 
 	
 if (!mysqli_query($con,$sql))
@@ -16,5 +16,5 @@ if (!mysqli_query($con,$sql))
 echo "1 record added";
 }
 
-	header('Location: editrounds.php')
+	header('Location: viewcustomers.php')
 ?>

@@ -9,6 +9,9 @@
 	if(!isset($_COOKIE['uid'])){
 		header('Location: /');
 	}
+		if($_COOKIE['ulvl'] != 1){
+		header('Location: /');
+	}
 ?>
 <html>
 <?php include '../assets/head.php'; ?>

@@ -2,7 +2,7 @@
 
 	include '../../assets/conf.php';
 	include '../../assets/sqlconf.php';
-	$pagename = "Request Time Off";
+	$pagename = "View Rounds";
 	$dirnm = 3;
 	$locations = [];
 	$waypoints= '';
@@ -23,23 +23,24 @@
 					<th>Notes</th> -->
 					<th> Number</th>
 					<th>Post Code</th>
+					<th>Paper</th>
 					<th>Delivered?</th>
 				</tr>
 				
 				<h1 id="round">Round 1</h1>
 				
-				<?php 
-				
+				<?php 				
 					$nor = 0;
-			$result = mysqli_query($con, "SELECT * FROM Rounds WHERE Pboy = '$_COOKIE[username]' ORDER BY iNumber ASC");
+			$result = mysqli_query($con, "SELECT * FROM Users WHERE Round = 1  ORDER BY uid ASC");
 
 						while($row = mysqli_fetch_array($result)) {
 							$nor ++;
 							echo "<tr>";
-								echo "<td>", $row['iNumber'], "</td>";
-								echo "<td>", $row['PostCode'] ,"</td>";
-								array_push($locations, $row['PostCode']);
-								echo '<td><input type="checkbox"  value=row', $i ,'delivered>';
+								echo "<td>", $row['uid'], "</td>";
+								echo "<td>", $row['PCode'] ,"</td>";
+								echo "<td>", $row['Paper'] ,"</td>";
+								array_push($locations, $row['PCode']);
+								echo '<td><form method="post" action="deliverpaper.php"><input type="submit"  value="delivered"></form></td>';
 								echo "</tr>";}
 							//print_r($locations);
 
