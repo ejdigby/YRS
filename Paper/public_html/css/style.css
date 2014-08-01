@@ -1,0 +1,86 @@
+* {
+	padding:0;
+	margin:0;
+}
+body, html {
+	height: 100%;
+	width: 100%;
+	font-family: "Helvetica"
+}
+header{
+	height: 60px;
+	background-color:#000;
+}
+header h1{
+	display: inline;
+	color:#fff;
+	line-height: 60px;
+}
+#pagename {
+	float: left;
+}
+#wrap {
+	width: 1250px;
+	background-color: #eee;
+	margin-left: auto;
+	margin-right: auto;
+}
+#content {
+	padding: 100px;
+}
+#Logo {
+	height: 150px;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-left: 470px;*/
+}
+#Username {
+	height:20px;
+	/*margin-left: 440px;*/
+}
+#Password {
+	height:20px;
+	/*margin-left: 440px;*/
+}
+#Submit {
+	height:150px;
+	/*margin-left: 381px;*/
+}
+#logout {
+	float: right;
+	/*padding-right: 40px;*/
+}
+.UserPass {
+	width: 200px;
+	/*margin-left: 375px*/
+}
+.Button {
+	height: 30px;
+	width: 50px;
+	/*margin-left: 445px;*/
+	margin-top: 10px;
+}
+#pagename {
+	width: 100%;
+	text-align: center;
+}
+form {
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#form {
+	width: 250px;
+	top:50%;
+	bottom: 50%;
+	margin-left: auto;
+	margin-right:auto;
+}
+img {
+	margin-left: auto;
+	margin-right: auto;
+}
+#inputs {
+	text-align: center;
+}
